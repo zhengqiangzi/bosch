@@ -1,5 +1,5 @@
 <?php
-	$version=4;
+	$version=rand(1,10000);
 	echo "<script> var version=".$version."</script>"
 ?>
 <!doctype>
@@ -219,8 +219,8 @@
 			<div class='f4'><img src="img/frame13/f4.png?rand=<?php echo $version;?>"/></div>
 			<div class='f5'><img src="img/frame13/f5.png?rand=<?php echo $version;?>"/></div>
 			<div class='f6'><img src="img/frame13/f6.png?rand=<?php echo $version;?>"/></div>
-			{{!<div class="downBtn"><img src="img/downBtn.png?rand=<?php echo $version;?>"/></div>}}
-			<div class='figer'><img src="img/figer.png?rand=<?php echo $version;?>"/></div>
+			
+			<div class="downBtn"><img src="img/downBtn.png?rand=<?php echo $version;?>"/></div>
 
 
 
