@@ -1,5 +1,5 @@
 <?php
-	$version=rand(1,10000);
+	$version=7.12;
 	echo "<script> var version=".$version."</script>"
 ?>
 <!doctype>
@@ -324,7 +324,7 @@
 
 
 	<script id="themes" type="text/x-handlebars-template">
-		<div class="title"><img src="img/frame20/t1.png?rand=<?php echo $version;?>"/></div>
+		<div class='titleF'><div class="title"><img src="img/frame20/t1.png?rand=<?php echo $version;?>"/></div></div>
 
 		<div class="themes-container">
 			<div class='leftButton'><img src="img/frame20/f2.png?rand=<?php echo $version;?>"/></div>
