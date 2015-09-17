@@ -1,5 +1,5 @@
 <?php
-	$version=7.12;
+	$version=7.22;
 	echo "<script> var version=".$version."</script>"
 ?>
 <!doctype>
