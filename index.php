@@ -41,16 +41,24 @@
 	<script id="page1" type="text/x-handlebars-template">
 
 		<div class='page1'>
+
+
+			<div class='n1'><img src="img/frame1/n2.jpg?rand=<?php echo $version;?>"/></div>
+			<div class='n2'><img src="img/frame1/n1.png?rand=<?php echo $version;?>"/></div>
+
+
 			<div class='f1'><img src="img/frame1/f1.jpg?rand=<?php echo $version;?>"/></div>
-			<div class='f2'>
+			{{!<div class='f2'>
 				<img src="img/frame1/f2.png?rand=<?php echo $version;?>"/>
 				<div class='g1'><img src="img/frame1/topg.png?rand=<?php echo $version;?>"/></div>
 				<div class='g2'><img src="img/frame1/bottomg.png?rand=<?php echo $version;?>"/></div>
-			</div>
+			</div>!}}
 
 
-			<div class='f3'><img src="img/frame1/f3.png?rand=<?php echo $version;?>"/></div>
+			{{!<div class='f3'><img src="img/frame1/f3.png?rand=<?php echo $version;?>"/></div>}}
 			<div class='f4'><img src="img/frame1/f4.png?rand=<?php echo $version;?>"/></div>
+
+			<div class="downBtn"></div>
 		</div>
 
 	</script>
