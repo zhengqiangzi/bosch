@@ -8,3 +8,4 @@ package.json
 img - ori
 gulpfile.js
 js/main.js
+*.psd
